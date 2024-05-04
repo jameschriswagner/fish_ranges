@@ -22,3 +22,10 @@ coastal_ecdfs-all-ranges.ipynb
     edges are manually determined using the maximum and minimum range estimate across all surveys tracking each
     individual fish species, again on a specific coastline where that survey actually occurs.
 
+coastal_ecdfs-SURVEY-RANGE.ipynb
+
+    This file does exactly the same thing as coastal_ecdfs-all-ranges.ipynb, with the exception being how we define
+    each coastal region. In this file, we define the coastal regions as being the intersection between the published
+    survey ranges as outlined in the shapefile available at
+    https://github.com/AquaAuma/TrawlSurveyMetadata/archive/refs/heads/master.zip, and the hand-selected coastal regions
+    as generated and visualized by coastal_ecdfs-all-ranges.ipynb.
