@@ -13,5 +13,12 @@ true_range_limits.ipynb
 coastal_ecdfs-true-ranges.ipynb
 
     This code executes a similar process as true_range_limits.ipynb, with the exception that each ECDF is generated with
-    respect to a specific coastline, and surveys are only evaluated with respect to subsets of aquamaps density maps that fall on the matching coast.
-    Within this file, coastlines are defined using MEOW.
+    respect to a specific coastline, and surveys are only evaluated with respect to subsets of aquamaps density
+    maps that fall on the matching coast. Within this file, coastlines are defined using MEOW.
+
+coastal_ecdfs-all-ranges.ipynb
+
+    This is directly analogous to coastal_ecdfs-true-ranges.ipynb, with the exception being that leading and trailing
+    edges are manually determined using the maximum and minimum range estimate across all surveys tracking each
+    individual fish species, again on a specific coastline where that survey actually occurs.
+
